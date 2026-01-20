@@ -149,4 +149,16 @@ nav{flex-wrap:wrap}
 }
 
 
+/* Override: set main page background to a calm light blue for minimalist look */
+body{
+	background: #eaf6ff !important;
+}
+
+/* Slightly lift cards to keep contrast on the blue background */
+.card{
+	background: rgba(255,255,255,0.96) !important;
+	box-shadow: 0 10px 30px rgba(11,99,214,0.06) !important;
+}
+
+
 
