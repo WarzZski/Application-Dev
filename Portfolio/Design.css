@@ -23,7 +23,7 @@ nav a:hover{background:rgba(11,99,214,0.06);transform:translateY(-2px)}
 /* Hero */
 .hero{background:linear-gradient(135deg,var(--beige),#ffffff);padding:28px;border-radius:var(--radius);margin-bottom:20px;box-shadow:var(--card-shadow);display:flex;align-items:center;gap:20px}
 .hero-left{flex:1}
-.hero h1{margin:0;font-size:2rem;color:var(--accent);line-height:1.05}
+.hero h1{margin:0;font-size:3rem;color:var(--accent);line-height:1.05}
 .hero p{margin:8px 0 0;color:var(--muted);font-size:1rem}
 .cta{display:inline-block;margin-top:14px;background:linear-gradient(90deg,var(--accent),#6d28d9);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;transition:transform .14s ease,opacity .14s ease}
 .cta:hover{transform:translateY(-3px);opacity:0.95}
@@ -92,7 +92,7 @@ header p{margin:2px 0 0;color:var(--muted)}
 .learning-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .progress{height:8px;background:#eef6ff;border-radius:999px;overflow:hidden}
 .progress > span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#6d28d9);border-radius:999px}
-.small{font-size:0.85rem;color:var(--muted)}
+.small{font-size:1.2rem;color:var(--muted)}
 
 footer{margin-top:8px;color:var(--muted);font-size:0.9rem}
 @media (max-width:520px){body{padding:12px}}
